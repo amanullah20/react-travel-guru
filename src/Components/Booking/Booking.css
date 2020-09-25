@@ -1,0 +1,63 @@
+.booking {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),
+    url("../Resources/Image/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-top: -20px;
+}
+.booking__details {
+  padding: 20% 0 0 0;
+  color: white;
+  text-align: left;
+}
+
+.rdrDateRangePickerWrapper {
+  width: 100%;
+}
+
+.booking__detailsForm {
+  padding: 20% 0 10% 0;
+}
+.booking__details > h1 {
+  font-size: 3rem;
+}
+
+.booking__dateBtn{
+    color: black !important;
+    padding: 15px !important;
+}
+
+form.booking__date {
+    background: white;
+    padding: 10%;
+}
+
+.booking__input::placeholder {
+    color: black !important;
+}
+
+.booking__input {
+    background: #F2F2F2 !important;
+    color: black;
+    height: 60px;
+    border: none;
+
+}
+.booking__input:focus{
+    box-shadow: none;
+}
+
+.booking__submitBtn{
+    padding: 20px 35%;
+    color: black;
+    font-weight: bold;
+    background-color: #f9a51a;
+    border: none;
+    outline: none;
+}
+.booking__submitBtn:hover {
+    background-color: #f9a51a;
+  }
